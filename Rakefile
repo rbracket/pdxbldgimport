@@ -7,7 +7,7 @@ require 'postgistable'
 Dir.glob('tasks/*.rake').each { |r| import r }
 Dir.glob('tasks/**/*.rake').each { |r| import r }
 
-ENV['PGUSER']='darrell'
+ENV['PGUSER']='katie'
 ENV['PGDATABASE']='pdx_bldgs'
 ENV['PGHOST']='localhost'
 
